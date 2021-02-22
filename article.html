@@ -21,7 +21,7 @@
             href="css/mobile.css"
         />
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-        <title>About</title>
+        <title>NewsGrid | Latest News</title>
     </head>
     <body>
         <nav id="main-nav">
@@ -43,17 +43,27 @@
                 </div>
                 <ul>
                     <li><a href="index.html" class="">Home</a></li>
-                    <li><a href="about.html" class="current">About</a></li>
+                    <li><a href="about.html" class="">About</a></li>
                 </ul>
             </div>
         </nav>
 
         <!-- about -->
-        <section id="about">
+        <section id="article">
             <div class="container">
                 <div class="page-container">
                     <article class="card">
-                        <h1 class="l-heading">About Our Organization</h1>
+                        <img src="images/articles/ent1.jpg" alt="" />
+                        <h1 class="l-heading">Lorem ipsum dolor sit amet.</h1>
+                        <div class="meta">
+                            <small
+                                ><i class="fas fa-user"></i> Written By John Doe
+                                January 12, 2021</small
+                            >
+                            <div class="category category-ent">
+                                Entertainment
+                            </div>
+                        </div>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Rerum magnam exercitationem provident sint.
@@ -76,7 +86,42 @@
                             quam nesciunt quas ab commodi veritatis?
                         </p>
                     </article>
-                    <aside class="card bg-primary">
+                    <aside id="categories" class="card">
+                        <h2>Categories</h2>
+                        <ul class="list">
+                            <li>
+                                <a href="#"
+                                    ><i class="fas fa-chevron-right"></i
+                                    >Sports</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#"
+                                    ><i class="fas fa-chevron-right"></i
+                                    >Entertainment</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#"
+                                    ><i class="fas fa-chevron-right"></i
+                                    >Technology</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#"
+                                    ><i class="fas fa-chevron-right"></i
+                                    >Passsion</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#"
+                                    ><i class="fas fa-chevron-right"></i
+                                    >Shoping</a
+                                >
+                            </li>
+                        </ul>
+                    </aside>
+                    <aside class="card bg-secondary">
                         <h2>Join Our Club</h2>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing
